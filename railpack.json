@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "python",
+  "steps": {
+    "install": {
+      "commands": [
+        "...",
+        {
+          "cmd": "python -m pip install -r requirements.txt",
+          "customName": "Install Python dependencies"
+        }
+      ]
+    }
+  },
+  "deploy": {
+    "startCommand": "PYTHONPATH=src python -m tarot_bot.main"
+  }
+}
