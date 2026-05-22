@@ -1,0 +1,2 @@
+"""Telegram Tarot reference bot."""
+

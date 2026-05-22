@@ -1,0 +1,12 @@
+[project]
+name = "tarot-reference-bot"
+version = "0.1.0"
+description = "Telegram bot with a beginner-friendly Tarot card reference."
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.4,<4",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
